@@ -1,5 +1,5 @@
 html {
-        background: url(Background7.jpg) no-repeat center center fixed;
+        background: url(background7.jpg) no-repeat center center fixed;
         background-size: cover;
         animation: fadein 3s;
         background-repeat: no-repeat;
@@ -75,7 +75,7 @@ Grande", sans-serif;
         height: auto;
         background-color: transparent;
         text-transform: uppercase;
-        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+        font-family: "Adequate Extra Light", "Lucida
 Grande", sans-serif;
         color: #FFFFFF;
         margin: auto;
