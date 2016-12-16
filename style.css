@@ -1,0 +1,314 @@
+html {
+        background: url(Background7.jpg) no-repeat center center fixed;
+        background-size: cover;
+        animation: fadein 3s;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    @keyframes sizeup {
+        from { font-size: 20px; }
+        to   { font-size: 22px; }
+    }
+
+    @font-face {
+        font-family:"Adequate Extra Light";
+        src: url(Adequate-ExtraLight.ttf);
+    }
+
+
+
+    /* Navigation */
+    #navbar {
+        height: 100px;
+        width: 100%;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+        margin: auto;
+        font-size: 20px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #navbar li {
+        display: block;
+        width: 33%;
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-top: 20px;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+        float: left;
+    }
+
+    #navbar a:hover {
+        font-size: 22px;
+        animation: sizeup .1s;
+
+    }
+
+    /* Navigation */
+
+    /* Title */
+
+    #header {
+        width: 960px;
+        height: auto;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+        color: #FFFFFF;
+        margin: auto;
+        border: 10px #FFFFFF solid;
+        font-size: 50px;
+        text-align: left;
+        clear: both;
+    }
+
+    #header h1 {
+        padding: 20px;
+    }
+
+    /* Title */
+
+    #container {
+        width: 960px;
+        background-color: transparent;
+        margin: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    #content {
+        width: 960px;
+        height: auto;
+        background-color: transparent;
+        color: #FFFFFF;
+        margin: auto;
+        margin-bottom: 500px;
+        border: 10px #FFFFFF solid;
+        margin-top: 50px;
+    }
+
+    #imageholder {
+        height: 600px;
+        width: 960px;
+        background-color: transparent;
+        margin-top: 50px;
+    }
+
+    #imageholder img{
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    #textholder {
+        height: 80px;
+        width: 960px;
+        background-color: transparent;
+        margin-bottom: 50px;
+    }
+
+    #textbox1 {
+        width: 440px;
+        height: auto;
+        background-color: #FFFFFF;
+        color: #00FFFF;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    #textbox2 {
+        width: 440px;
+        height: auto;
+        background-color: #FFFFFF;
+        color: #00FFFF;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    #textbox1 h2 {
+        padding: 10px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        font-weight: normal;
+    }
+
+    #textbox2 h2 {
+        padding: 10px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #footer {
+        height: 50px;
+        width: 100%;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    #section1, #section2, #section3, #section4, #section5, #section6 {
+        height: auto;
+        width: 960px;
+        background-color: rgba(255, 255, 255, .8);
+        margin: auto;
+        border: 10px #FFFFFF solid;
+        margin-bottom: 200px;
+        margin-top: 200px;
+        text-align: justify;
+    }
+
+    #section1  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section1 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section2  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section2 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section3  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section3 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section4  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section4 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section5  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section5 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section6  h1 {
+        padding: 20px;
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+    }
+
+    #section6 p {
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #section4 a{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #section4 a:link {
+        color: #1e90ff;
+    }
+
+    #section4 a:visited {
+        color: #000080;
+    }
+
+    #section4 a:hover {
+        color: #00ffff;
+    }
+
+    #section4 a:active {
+        color: #00FFFF;
+    }
+
+    #section1 li {
+        padding: 5px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    table, th, td {
+        color: #1e90ff;
+        font-family: "Adequate Extra Light", "Lucida Sans Unicode", "Lucida
+Grande", sans-serif;
+        font-size: 12px;
+    }
+
+    tr, td {
+        border: solid transparent;
+        background-color: #FFFFFF;
+        opacity: .9;
+    }
+
+    table {
+        margin: auto;
+        margin-bottom: 200px;
+        border: 10px solid #FFFFFF;
+        width: 960px;
+        text-align: center;
+    }
+
+    table p {
+        padding: 10px;
+    }
